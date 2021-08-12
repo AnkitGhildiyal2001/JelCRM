@@ -1,0 +1,31 @@
+<?php /* Smarty version 2.6.31, created on 2021-06-03 21:22:55
+         compiled from include/SearchForm/tpls/headerPopup.tpl */ ?>
+<div id="searchDialog" class="modal fade modal-search" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="display: flex;flex-direction: row;align-content: center;align-items: center;">
+            <!-- NOT NEEDED IN CURRENT THEME
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><?php echo $this->_tpl_vars['APP']['LBL_FILTER_HEADER_TITLE']; ?>
+</h4>
+               
+                <h5 class="searchTabHeader mobileOnly basic active"><?php echo $this->_tpl_vars['APP']['LBL_QUICK_FILTER']; ?>
+</h5>
+                <h5 class="searchTabHeader mobileOnly advanced"><?php echo $this->_tpl_vars['APP']['LBL_ADVANCED_SEARCH']; ?>
+</h5>
+                -->
+              <!--  <ul class="nav nav-tabs" role="tablist">
+                    <li class="searchTabHandler basic active"><a href="javascript:void(0)"
+                                                                 onclick="listViewSearchIcon.toggleSearchDialog('basic'); return false;"
+                                                                 aria-controls="searchList" role="tab"
+                                                                 data-toggle="tab"><?php echo $this->_tpl_vars['APP']['LBL_QUICK_FILTER']; ?>
+</a></li>
+                    <li class="searchTabHandler advanced"><a href="javascript:void(0)"
+                                                             onclick="listViewSearchIcon.toggleSearchDialog('advanced'); return false;"
+                                                             aria-controls="searchList" role="tab"
+                                                             data-toggle="tab"><?php echo $this->_tpl_vars['APP']['LBL_ADVANCED_SEARCH']; ?>
+</a></li> -->
+                </ul>
+            </div>
+            <div class="modal-body" id="searchList">

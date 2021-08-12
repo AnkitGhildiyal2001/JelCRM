@@ -1,0 +1,52 @@
+<?php
+// created: 2021-06-03 16:40:13
+$layout_defs = array (
+  'full_name' => 
+  array (
+    'vname' => 'LBL_LIST_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'module' => 'Users',
+    'width' => '25%',
+    'default' => true,
+  ),
+  'user_name' => 
+  array (
+    'vname' => 'LBL_LIST_USER_NAME',
+    'width' => '25%',
+    'default' => true,
+  ),
+  'email1' => 
+  array (
+    'vname' => 'LBL_LIST_EMAIL',
+    'width' => '25%',
+    'default' => true,
+  ),
+  'phone_work' => 
+  array (
+    'vname' => 'LBL_LIST_PHONE',
+    'width' => '21%',
+    'default' => true,
+  ),
+  'teamleader1_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_TEAMLEADER1',
+    'width' => '10%',
+  ),
+  'teamleaderemail_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_TEAMLEADEREMAIL',
+    'width' => '10%',
+  ),
+  'first_name' => 
+  array (
+    'usage' => 'query_only',
+  ),
+  'last_name' => 
+  array (
+    'usage' => 'query_only',
+  ),
+);

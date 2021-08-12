@@ -1,0 +1,4 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_USERS_USERS_1_FROM_USERS_L_TITLE'] = 'Team Leader';
+$mod_strings['LBL_USERS_USERS_1_FROM_USERS_R_TITLE'] = 'Users';

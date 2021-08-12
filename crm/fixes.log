@@ -1,0 +1,15 @@
+21-Oct-2016 - Fix 'Lead'/'Send Infopack' so that the task is automaticly 'Assigned To' Christine Appleyard
+
+Modified these files:
+./custom/Extension/modules/Tasks/Ext/Vardefs/set_default_value.php
+(forces Christine Appleyard and her ID)
+
+./custom/modules/Tasks/metadata/quickcreatedefs.php
+(suppresses the "Assign To" selection/delete buttons and makes it Read Only)
+
+The original hack was in the 'cache' directory... which is overwritten whenever things are rebuilt!!!
+I Found a saved copy of the file here: crm/custom/modules/Tasks/form_SubpanelQuickCreate_Tasks.tpl
+However, this copy is never used by SugarCRM (It's a huge HACK!)
+
+There are still some hacks in the .tpl file that I have't figured out yet, but the SIP stuff seems to work OK now.
+
